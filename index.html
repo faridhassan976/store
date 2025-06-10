@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>متجر الأزياء - الصفحة الرئيسية</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="index.html">
+            <h1><i class="fas fa-tshirt"></i> متجر الأزياء</h1>
+          </a>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html" class="active">الرئيسية</a></li>
+            <li><a href="products/mens.html">ملابس رجالي</a></li>
+            <li><a href="products/womens.html">ملابس نسائي</a></li>
+            <li><a href="products/bags.html">حقائب</a></li>
+            <li><a href="products/shoes.html">أحذية</a></li>
+            <li><a href="about.html">عن المتجر</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <button class="theme-toggle" id="theme-toggle">
+            <i class="fas fa-sun"></i>
+          </button>
+          <a href="cart.html" class="cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count" id="cart-count">0</span>
+          </a>
+          <button class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h2>أحدث تشكيلات الموضة بأفضل الأسعار</h2>
+        <p>اكتشف مجموعتنا الجديدة من الملابس والإكسسوارات العصرية</p>
+        <div class="hero-btns">
+          <a href="products/mens.html" class="btn primary-btn">تسوق الآن</a>
+          <a href="#featured" class="btn secondary-btn">العروض المميزة</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="categories">
+    <div class="container">
+      <h2 class="section-title">تسوق حسب الفئة</h2>
+      <div class="categories-grid">
+        <a href="products/mens.html" class="category-card">
+          <div class="category-img">
+            <img src="https://images.pexels.com/photos/1342609/pexels-photo-1342609.jpeg?auto=compress&cs=tinysrgb&w=600" alt="ملابس رجالي">
+          </div>
+          <h3>ملابس رجالي</h3>
+        </a>
+        <a href="products/womens.html" class="category-card">
+          <div class="category-img">
+            <img src="https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=600" alt="ملابس نسائي">
+          </div>
+          <h3>ملابس نسائي</h3>
+        </a>
+        <a href="products/bags.html" class="category-card">
+          <div class="category-img">
+            <img src="https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=600" alt="حقائب">
+          </div>
+          <h3>حقائب</h3>
+        </a>
+        <a href="products/shoes.html" class="category-card">
+          <div class="category-img">
+            <img src="https://images.pexels.com/photos/267320/pexels-photo-267320.jpeg?auto=compress&cs=tinysrgb&w=600" alt="أحذية">
+          </div>
+          <h3>أحذية</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured" id="featured">
+    <div class="container">
+      <h2 class="section-title">منتجات مميزة</h2>
+      <div class="products-grid" id="featured-products">
+        <!-- Products will be loaded from JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <section class="banner">
+    <div class="container">
+      <div class="banner-content">
+        <h2>خصومات تصل إلى 50%</h2>
+        <p>على مجموعة مختارة من المنتجات لفترة محدودة</p>
+        <a href="products/mens.html" class="btn primary-btn">تسوق الآن</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="advantages">
+    <div class="container">
+      <div class="advantages-grid">
+        <div class="advantage-card">
+          <i class="fas fa-truck"></i>
+          <h3>توصيل سريع</h3>
+          <p>توصيل لجميع المحافظات</p>
+        </div>
+        <div class="advantage-card">
+          <i class="fas fa-shield-alt"></i>
+          <h3>ضمان الجودة</h3>
+          <p>منتجات عالية الجودة</p>
+        </div>
+        <div class="advantage-card">
+          <i class="fas fa-phone-alt"></i>
+          <h3>دعم فني</h3>
+          <p>متاح على مدار الساعة</p>
+        </div>
+        <div class="advantage-card">
+          <i class="fas fa-wallet"></i>
+          <h3>دفع آمن</h3>
+          <p>فودافون كاش</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>متجر الأزياء</h3>
+          <p>متجر متخصص في بيع الملابس والأحذية والحقائب بأفضل الأسعار وأعلى جودة.</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>روابط سريعة</h3>
+          <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="products/mens.html">ملابس رجالي</a></li>
+            <li><a href="products/womens.html">ملابس نسائي</a></li>
+            <li><a href="products/bags.html">حقائب</a></li>
+            <li><a href="products/shoes.html">أحذية</a></li>
+            <li><a href="about.html">عن المتجر</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>تواصل معنا</h3>
+          <p class="contact-info">
+            <i class="fas fa-envelope"></i>
+            <span>البريد الإلكتروني:</span>
+            <span id="email">jntalkhldyarb@gmail.com</span>
+            <button class="copy-btn" data-copy="jntalkhldyarb@gmail.com">
+              <i class="fas fa-copy"></i>
+            </button>
+          </p>
+          <p class="contact-info">
+            <i class="fab fa-whatsapp"></i>
+            <span>واتساب:</span>
+            <span id="whatsapp">01559107092</span>
+            <button class="copy-btn" data-copy="01559107092">
+              <i class="fas fa-copy"></i>
+            </button>
+          </p>
+        </div>
+      </div>
+      <div class="payment-info">
+        <p>طرق الدفع المتاحة: فودافون كاش</p>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 متجر الأزياء. جميع الحقوق محفوظة.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <div class="notification" id="notification">
+    <p id="notification-text">تمت نسخ النص بنجاح!</p>
+  </div>
+
+  <script src="js/theme.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
